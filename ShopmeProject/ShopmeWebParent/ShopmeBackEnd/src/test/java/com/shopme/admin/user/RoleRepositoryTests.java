@@ -19,7 +19,7 @@ import com.shopme.common.entity.Role;
 @DataJpaTest
 @AutoConfigureTestDatabase(replace = Replace.NONE)
 @Rollback(false)
-public class RoleRepositoryTests {
+public class RoleRepositoryTests{
 
 	@Autowired
 	private RoleRepository repo;
